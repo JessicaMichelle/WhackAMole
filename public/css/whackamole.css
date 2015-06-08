@@ -1,0 +1,63 @@
+/*----------BORDER BOX----------*/
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/*----------ELEMENTS----------*/
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	float: left;
+	margin-left: 100px;
+}
+
+/*----------CLASSES-----------*/
+
+.appear {
+	background-color: red;
+}
+
+.clear {
+	clear: both;
+	width: 450px;
+	margin-left: 450px;
+}
+
+.container {
+	width: 450px;
+	margin-left: 450px;
+}
+
+.holder {
+	border: 1px solid black;
+	width: 150px;
+	height: 150px;
+	float: left;
+	border-radius: 5px;
+	background-color: blue;
+}
+
+.mole {
+	width: 125px;
+	height: 125px;
+	border: 1px solid black;
+	border-radius: 100px;
+	background-color: black;
+	margin-left: 11px;
+	margin-top: 12px;
+}
+
+.start {
+	width: 100px;
+	height: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 630px;
+}
