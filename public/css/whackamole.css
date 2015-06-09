@@ -20,14 +20,16 @@ h2 {
 /*----------CLASSES-----------*/
 
 .clear {
-	clear: both;
+	clear: right;
 	width: 450px;
-	margin-left: 450px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .container {
 	width: 450px;
-	margin-left: 450px;
+	margin-left: auto;
+	margin-right: auto;
 	cursor: url(/img/hammer_up.png), auto;
 }
 
@@ -66,7 +68,8 @@ h2 {
 }
 
 .score{
-	margin-left: 90px;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 .start {
@@ -74,11 +77,12 @@ h2 {
 	height: 50px;
 	font-size: 30px;
 	font-weight: bold;
-	margin-left: 630px;
+	margin-top: 5px;
 }
 
 .timer {
-	margin-left: 90px;
+	margin-left: 186px;
+	margin-right: -255px;
 }
 
 div:active {
